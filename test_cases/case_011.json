@@ -1,0 +1,25 @@
+{
+  "case_id": "011",
+  "description": "Policy vs Renewal - liability limit quietly reduced",
+  "source_text": "POLICY (Prior term) - General Liability\nNamed Insured: Sundale Hospitality Group\nEach Occurrence Limit: Rs 1,00,00,000\nGeneral Aggregate: Rs 2,00,00,000",
+  "target_text": "RENEWAL POLICY - General Liability\nNamed Insured: Sundale Hospitality Group\nEach Occurrence Limit: Rs 75,00,000\nGeneral Aggregate: Rs 2,00,00,000",
+  "fields": [
+    "Named insured",
+    "Each occurrence limit",
+    "General aggregate"
+  ],
+  "ground_truth": [
+    {
+      "field": "Named insured",
+      "status": "matched"
+    },
+    {
+      "field": "Each occurrence limit",
+      "status": "flagged"
+    },
+    {
+      "field": "General aggregate",
+      "status": "matched"
+    }
+  ]
+}

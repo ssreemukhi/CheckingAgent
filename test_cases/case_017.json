@@ -1,0 +1,25 @@
+{
+  "case_id": "017",
+  "description": "Policy vs Renewal - named insured entity name changed without proper endorsement",
+  "source_text": "POLICY (Prior term) - Commercial Property\nNamed Insured: Kestrel Manufacturing Pvt Ltd\nAnnual Premium: Rs 3,60,000\nBuilding Limit: Rs 2,90,00,000",
+  "target_text": "RENEWAL POLICY - Commercial Property\nNamed Insured: Kestrel Manufacturing and Allied Industries Pvt Ltd\nAnnual Premium: Rs 3,60,000\nBuilding Limit: Rs 2,90,00,000",
+  "fields": [
+    "Named insured",
+    "Annual premium",
+    "Building limit"
+  ],
+  "ground_truth": [
+    {
+      "field": "Named insured",
+      "status": "flagged"
+    },
+    {
+      "field": "Annual premium",
+      "status": "matched"
+    },
+    {
+      "field": "Building limit",
+      "status": "matched"
+    }
+  ]
+}

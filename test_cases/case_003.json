@@ -1,0 +1,40 @@
+{
+  "case_id": "003",
+  "description": "Binder vs Policy - named insured spelling mismatch and missing endorsement form",
+  "source_text": "BINDER - Commercial Auto\nNamed Insured: Vantage Logistics Pvt. Ltd.\nEffective Date: 07/01/2026\nAnnual Premium: Rs 3,45,000\nLiability Limit: Rs 75,00,000\nUninsured Motorist Coverage: Included\nEndorsement Forms: CA 20 48 - Waiver of Subrogation, CA 99 54 - Notice of Cancellation",
+  "target_text": "POLICY - Commercial Auto\nNamed Insured: Vantage Logisitcs Pvt. Ltd.\nEffective Date: 07/01/2026\nAnnual Premium: Rs 3,45,000\nLiability Limit: Rs 75,00,000\nUninsured Motorist Coverage: Included\nEndorsement Forms: CA 20 48 - Waiver of Subrogation",
+  "fields": [
+    "Named insured",
+    "Effective date",
+    "Annual premium",
+    "Liability limit",
+    "Uninsured motorist coverage",
+    "Endorsement forms"
+  ],
+  "ground_truth": [
+    {
+      "field": "Named insured",
+      "status": "flagged"
+    },
+    {
+      "field": "Effective date",
+      "status": "matched"
+    },
+    {
+      "field": "Annual premium",
+      "status": "matched"
+    },
+    {
+      "field": "Liability limit",
+      "status": "matched"
+    },
+    {
+      "field": "Uninsured motorist coverage",
+      "status": "matched"
+    },
+    {
+      "field": "Endorsement forms",
+      "status": "flagged"
+    }
+  ]
+}

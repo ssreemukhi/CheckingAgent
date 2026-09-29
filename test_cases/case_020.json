@@ -1,0 +1,30 @@
+{
+  "case_id": "020",
+  "description": "Quote vs Policy - sublimit for water damage silently removed",
+  "source_text": "QUOTE - Commercial Property\nNamed Insured: Meadowbrook Senior Living LLC\nBuilding Limit: Rs 5,00,00,000\nSublimit - Water Damage: Rs 25,00,000\nAnnual Premium: Rs 4,40,000",
+  "target_text": "POLICY - Commercial Property\nNamed Insured: Meadowbrook Senior Living LLC\nBuilding Limit: Rs 5,00,00,000\nSublimit - Water Damage: Not listed\nAnnual Premium: Rs 4,40,000",
+  "fields": [
+    "Named insured",
+    "Building limit",
+    "Sublimit - Water Damage",
+    "Annual premium"
+  ],
+  "ground_truth": [
+    {
+      "field": "Named insured",
+      "status": "matched"
+    },
+    {
+      "field": "Building limit",
+      "status": "matched"
+    },
+    {
+      "field": "Sublimit - Water Damage",
+      "status": "flagged"
+    },
+    {
+      "field": "Annual premium",
+      "status": "matched"
+    }
+  ]
+}

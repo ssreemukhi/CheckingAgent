@@ -1,0 +1,25 @@
+{
+  "case_id": "013",
+  "description": "Endorsement vs Policy - expiration date year typo",
+  "source_text": "ENDORSEMENT - Extend Policy Term\nNamed Insured: Fairmount Logistics Hub\nEffective Date: 01/12/2026\nRevised Expiration Date: 01/12/2027",
+  "target_text": "POLICY (Updated) - Extend Policy Term\nNamed Insured: Fairmount Logistics Hub\nEffective Date: 01/12/2026\nRevised Expiration Date: 01/12/2026",
+  "fields": [
+    "Named insured",
+    "Effective date",
+    "Revised expiration date"
+  ],
+  "ground_truth": [
+    {
+      "field": "Named insured",
+      "status": "matched"
+    },
+    {
+      "field": "Effective date",
+      "status": "matched"
+    },
+    {
+      "field": "Revised expiration date",
+      "status": "flagged"
+    }
+  ]
+}

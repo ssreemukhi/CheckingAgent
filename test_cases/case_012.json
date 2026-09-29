@@ -1,0 +1,30 @@
+{
+  "case_id": "012",
+  "description": "Quote vs Policy - clean match, umbrella policy",
+  "source_text": "QUOTE - Commercial Umbrella\nNamed Insured: Prestige Auto Dealers Pvt Ltd\nAnnual Premium: Rs 5,40,000\nLimit: Rs 5,00,00,000\nUnderlying GL Required: Rs 1,00,00,000",
+  "target_text": "POLICY - Commercial Umbrella\nNamed Insured: Prestige Auto Dealers Pvt Ltd\nAnnual Premium: Rs 5,40,000\nLimit: Rs 5,00,00,000\nUnderlying GL Required: Rs 1,00,00,000",
+  "fields": [
+    "Named insured",
+    "Annual premium",
+    "Limit",
+    "Underlying GL required"
+  ],
+  "ground_truth": [
+    {
+      "field": "Named insured",
+      "status": "matched"
+    },
+    {
+      "field": "Annual premium",
+      "status": "matched"
+    },
+    {
+      "field": "Limit",
+      "status": "matched"
+    },
+    {
+      "field": "Underlying GL required",
+      "status": "matched"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "case_id": "018",
+  "description": "Quote vs Policy - compound error, both deductible and BPP limit wrong",
+  "source_text": "QUOTE - Commercial Property\nNamed Insured: Silverline Electronics Pvt Ltd\nBuilding Limit: Rs 1,50,00,000\nBusiness Personal Property Limit: Rs 60,00,000\nDeductible: Rs 50,000",
+  "target_text": "POLICY - Commercial Property\nNamed Insured: Silverline Electronics Pvt Ltd\nBuilding Limit: Rs 1,50,00,000\nBusiness Personal Property Limit: Rs 45,00,000\nDeductible: Rs 1,00,000",
+  "fields": [
+    "Named insured",
+    "Building limit",
+    "Business personal property limit",
+    "Deductible"
+  ],
+  "ground_truth": [
+    {
+      "field": "Named insured",
+      "status": "matched"
+    },
+    {
+      "field": "Building limit",
+      "status": "matched"
+    },
+    {
+      "field": "Business personal property limit",
+      "status": "flagged"
+    },
+    {
+      "field": "Deductible",
+      "status": "flagged"
+    }
+  ]
+}

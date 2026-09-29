@@ -1,0 +1,25 @@
+{
+  "case_id": "015",
+  "description": "Binder vs Policy - additional insured omitted at issuance",
+  "source_text": "BINDER - Commercial Property\nNamed Insured: Ridgeline Warehousing Corp\nAdditional Insured: First Capital Bank (Mortgagee)\nAnnual Premium: Rs 7,10,000",
+  "target_text": "POLICY - Commercial Property\nNamed Insured: Ridgeline Warehousing Corp\nAdditional Insured: None listed\nAnnual Premium: Rs 7,10,000",
+  "fields": [
+    "Named insured",
+    "Additional insured",
+    "Annual premium"
+  ],
+  "ground_truth": [
+    {
+      "field": "Named insured",
+      "status": "matched"
+    },
+    {
+      "field": "Additional insured",
+      "status": "flagged"
+    },
+    {
+      "field": "Annual premium",
+      "status": "matched"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "case_id": "006",
+  "description": "Quote vs Policy - premium entered incorrectly",
+  "source_text": "QUOTE - Commercial Property\nNamed Insured: Brightline Textiles Pvt Ltd\nEffective Date: 09/01/2026\nAnnual Premium: Rs 2,85,000\nBuilding Limit: Rs 3,20,00,000\nDeductible: Rs 75,000",
+  "target_text": "POLICY - Commercial Property\nNamed Insured: Brightline Textiles Pvt Ltd\nEffective Date: 09/01/2026\nAnnual Premium: Rs 2,58,000\nBuilding Limit: Rs 3,20,00,000\nDeductible: Rs 75,000",
+  "fields": [
+    "Named insured",
+    "Effective date",
+    "Annual premium",
+    "Building limit",
+    "Deductible"
+  ],
+  "ground_truth": [
+    {
+      "field": "Named insured",
+      "status": "matched"
+    },
+    {
+      "field": "Effective date",
+      "status": "matched"
+    },
+    {
+      "field": "Annual premium",
+      "status": "flagged"
+    },
+    {
+      "field": "Building limit",
+      "status": "matched"
+    },
+    {
+      "field": "Deductible",
+      "status": "matched"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "case_id": "016",
+  "description": "Quote vs Policy - clean match, marine cargo",
+  "source_text": "QUOTE - Marine Cargo\nNamed Insured: Coastal Exports Ltd\nAnnual Premium: Rs 2,10,000\nLimit per Conveyance: Rs 1,50,00,000\nDeductible: Rs 25,000",
+  "target_text": "POLICY - Marine Cargo\nNamed Insured: Coastal Exports Ltd\nAnnual Premium: Rs 2,10,000\nLimit per Conveyance: Rs 1,50,00,000\nDeductible: Rs 25,000",
+  "fields": [
+    "Named insured",
+    "Annual premium",
+    "Limit per conveyance",
+    "Deductible"
+  ],
+  "ground_truth": [
+    {
+      "field": "Named insured",
+      "status": "matched"
+    },
+    {
+      "field": "Annual premium",
+      "status": "matched"
+    },
+    {
+      "field": "Limit per conveyance",
+      "status": "matched"
+    },
+    {
+      "field": "Deductible",
+      "status": "matched"
+    }
+  ]
+}

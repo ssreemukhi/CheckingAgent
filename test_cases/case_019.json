@@ -1,0 +1,30 @@
+{
+  "case_id": "019",
+  "description": "Binder vs Policy - clean match, professional indemnity",
+  "source_text": "BINDER - Professional Indemnity\nNamed Insured: Clearpath Consulting Group\nAnnual Premium: Rs 1,85,000\nLimit of Indemnity: Rs 2,00,00,000\nRetroactive Date: 04/01/2022",
+  "target_text": "POLICY - Professional Indemnity\nNamed Insured: Clearpath Consulting Group\nAnnual Premium: Rs 1,85,000\nLimit of Indemnity: Rs 2,00,00,000\nRetroactive Date: 04/01/2022",
+  "fields": [
+    "Named insured",
+    "Annual premium",
+    "Limit of indemnity",
+    "Retroactive date"
+  ],
+  "ground_truth": [
+    {
+      "field": "Named insured",
+      "status": "matched"
+    },
+    {
+      "field": "Annual premium",
+      "status": "matched"
+    },
+    {
+      "field": "Limit of indemnity",
+      "status": "matched"
+    },
+    {
+      "field": "Retroactive date",
+      "status": "matched"
+    }
+  ]
+}

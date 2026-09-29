@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+*_old
+*_old1
+1
+static_backup_*/
+.env
+*.key
+*credentials*.json
+service-account*.json
+*.xlsx
+*.csv
+tests/*.pdf

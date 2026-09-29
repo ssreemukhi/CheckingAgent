@@ -1,0 +1,30 @@
+{
+  "case_id": "009",
+  "description": "Binder vs Policy - clean match",
+  "source_text": "BINDER - Directors and Officers Liability\nNamed Insured: Northfield Analytics Inc\nAnnual Premium: $22,000\nLimit of Liability: $5,000,000\nRetention: $50,000",
+  "target_text": "POLICY - Directors and Officers Liability\nNamed Insured: Northfield Analytics Inc\nAnnual Premium: $22,000\nLimit of Liability: $5,000,000\nRetention: $50,000",
+  "fields": [
+    "Named insured",
+    "Annual premium",
+    "Limit of liability",
+    "Retention"
+  ],
+  "ground_truth": [
+    {
+      "field": "Named insured",
+      "status": "matched"
+    },
+    {
+      "field": "Annual premium",
+      "status": "matched"
+    },
+    {
+      "field": "Limit of liability",
+      "status": "matched"
+    },
+    {
+      "field": "Retention",
+      "status": "matched"
+    }
+  ]
+}

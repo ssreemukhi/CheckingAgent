@@ -1,0 +1,45 @@
+{
+  "case_id": "002",
+  "description": "Quote vs Policy - clean match, no discrepancies (control case)",
+  "source_text": "QUOTE - Commercial General Liability\nNamed Insured: Meridian Foods Pvt Ltd\nEffective Date: 09/15/2026\nAnnual Premium: Rs 1,24,000\nEach Occurrence Limit: Rs 50,00,000\nGeneral Aggregate Limit: Rs 1,00,00,000\nDeductible: Rs 25,000\nAdditional Insured: Landlord - Skyline Properties",
+  "target_text": "POLICY - Commercial General Liability\nNamed Insured: Meridian Foods Pvt Ltd\nEffective Date: 09/15/2026\nAnnual Premium: Rs 1,24,000\nEach Occurrence Limit: Rs 50,00,000\nGeneral Aggregate Limit: Rs 1,00,00,000\nDeductible: Rs 25,000\nAdditional Insured: Landlord - Skyline Properties",
+  "fields": [
+    "Named insured",
+    "Effective date",
+    "Annual premium",
+    "Each occurrence limit",
+    "General aggregate limit",
+    "Deductible",
+    "Additional insured"
+  ],
+  "ground_truth": [
+    {
+      "field": "Named insured",
+      "status": "matched"
+    },
+    {
+      "field": "Effective date",
+      "status": "matched"
+    },
+    {
+      "field": "Annual premium",
+      "status": "matched"
+    },
+    {
+      "field": "Each occurrence limit",
+      "status": "matched"
+    },
+    {
+      "field": "General aggregate limit",
+      "status": "matched"
+    },
+    {
+      "field": "Deductible",
+      "status": "matched"
+    },
+    {
+      "field": "Additional insured",
+      "status": "matched"
+    }
+  ]
+}

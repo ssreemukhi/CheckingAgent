@@ -1,0 +1,30 @@
+{
+  "case_id": "010",
+  "description": "Quote vs Policy - coinsurance percentage changed",
+  "source_text": "QUOTE - Commercial Property\nNamed Insured: Alderwood Packaging Co\nAnnual Premium: Rs 3,95,000\nBuilding Limit: Rs 4,00,00,000\nCoinsurance: 80%",
+  "target_text": "POLICY - Commercial Property\nNamed Insured: Alderwood Packaging Co\nAnnual Premium: Rs 3,95,000\nBuilding Limit: Rs 4,00,00,000\nCoinsurance: 90%",
+  "fields": [
+    "Named insured",
+    "Annual premium",
+    "Building limit",
+    "Coinsurance"
+  ],
+  "ground_truth": [
+    {
+      "field": "Named insured",
+      "status": "matched"
+    },
+    {
+      "field": "Annual premium",
+      "status": "matched"
+    },
+    {
+      "field": "Building limit",
+      "status": "matched"
+    },
+    {
+      "field": "Coinsurance",
+      "status": "flagged"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "case_id": "004",
+  "description": "Endorsement request vs issued Policy - missing additional insured and effective date mismatch",
+  "source_text": "ENDORSEMENT REQUEST - Add Additional Insured\nNamed Insured: Crestpoint Manufacturing Ltd\nEffective Date: 03/10/2026\nAdditional Insured Requested: Northbridge Capital Partners\nCoverage Line: Commercial Property",
+  "target_text": "POLICY ENDORSEMENT - Issued\nNamed Insured: Crestpoint Manufacturing Ltd\nEffective Date: 03/15/2026\nAdditional Insured Added: None\nCoverage Line: Commercial Property",
+  "fields": [
+    "Named insured",
+    "Effective date",
+    "Additional insured",
+    "Coverage line"
+  ],
+  "ground_truth": [
+    {
+      "field": "Named insured",
+      "status": "matched"
+    },
+    {
+      "field": "Effective date",
+      "status": "flagged"
+    },
+    {
+      "field": "Additional insured",
+      "status": "flagged"
+    },
+    {
+      "field": "Coverage line",
+      "status": "matched"
+    }
+  ]
+}

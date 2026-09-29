@@ -1,0 +1,6 @@
+flask==3.0.3
+gunicorn==22.0.0
+pdfplumber==0.11.4
+google-genai>=1.0.0
+google-cloud-firestore
+google-auth

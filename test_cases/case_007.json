@@ -1,0 +1,30 @@
+{
+  "case_id": "007",
+  "description": "Policy vs Renewal - clean match, no discrepancies",
+  "source_text": "POLICY (Prior term) - Workers Compensation\nNamed Insured: Orbit Facility Services LLP\nAnnual Premium: Rs 4,10,000\nEmployers Liability Limit: Rs 1,00,00,000\nExperience Modifier: 0.94",
+  "target_text": "RENEWAL POLICY - Workers Compensation\nNamed Insured: Orbit Facility Services LLP\nAnnual Premium: Rs 4,10,000\nEmployers Liability Limit: Rs 1,00,00,000\nExperience Modifier: 0.94",
+  "fields": [
+    "Named insured",
+    "Annual premium",
+    "Employers liability limit",
+    "Experience modifier"
+  ],
+  "ground_truth": [
+    {
+      "field": "Named insured",
+      "status": "matched"
+    },
+    {
+      "field": "Annual premium",
+      "status": "matched"
+    },
+    {
+      "field": "Employers liability limit",
+      "status": "matched"
+    },
+    {
+      "field": "Experience modifier",
+      "status": "matched"
+    }
+  ]
+}

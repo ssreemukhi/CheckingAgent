@@ -1,0 +1,30 @@
+{
+  "case_id": "014",
+  "description": "Quote vs Policy - clean match, cyber liability",
+  "source_text": "QUOTE - Cyber Liability\nNamed Insured: Vireo Health Tech Pvt Ltd\nAnnual Premium: Rs 4,75,000\nAggregate Limit: Rs 3,00,00,000\nRetention: Rs 5,00,000",
+  "target_text": "POLICY - Cyber Liability\nNamed Insured: Vireo Health Tech Pvt Ltd\nAnnual Premium: Rs 4,75,000\nAggregate Limit: Rs 3,00,00,000\nRetention: Rs 5,00,000",
+  "fields": [
+    "Named insured",
+    "Annual premium",
+    "Aggregate limit",
+    "Retention"
+  ],
+  "ground_truth": [
+    {
+      "field": "Named insured",
+      "status": "matched"
+    },
+    {
+      "field": "Annual premium",
+      "status": "matched"
+    },
+    {
+      "field": "Aggregate limit",
+      "status": "matched"
+    },
+    {
+      "field": "Retention",
+      "status": "matched"
+    }
+  ]
+}

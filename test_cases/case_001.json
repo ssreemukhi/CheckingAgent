@@ -1,0 +1,50 @@
+{
+  "case_id": "001",
+  "description": "Quote vs Policy - deductible mismatch and missing waiver of subrogation",
+  "source_text": "QUOTE - Commercial Property\nNamed Insured: Ashford Retail Holdings LLC\nEffective Date: 08/01/2026\nExpiration Date: 08/01/2027\nAnnual Premium: $18,450\nBuilding Limit: $2,500,000\nBusiness Personal Property Limit: $500,000\nDeductible: $10,000\nCoinsurance: 90%\nWaiver of Subrogation: Included",
+  "target_text": "POLICY - Commercial Property\nNamed Insured: Ashford Retail Holdings LLC\nEffective Date: 08/01/2026\nExpiration Date: 08/01/2027\nAnnual Premium: $18,450\nBuilding Limit: $2,500,000\nBusiness Personal Property Limit: $500,000\nDeductible: $25,000\nCoinsurance: 90%\nWaiver of Subrogation: Not included",
+  "fields": [
+    "Named insured",
+    "Effective date",
+    "Annual premium",
+    "Building limit",
+    "Business personal property limit",
+    "Deductible",
+    "Coinsurance",
+    "Waiver of subrogation"
+  ],
+  "ground_truth": [
+    {
+      "field": "Named insured",
+      "status": "matched"
+    },
+    {
+      "field": "Effective date",
+      "status": "matched"
+    },
+    {
+      "field": "Annual premium",
+      "status": "matched"
+    },
+    {
+      "field": "Building limit",
+      "status": "matched"
+    },
+    {
+      "field": "Business personal property limit",
+      "status": "matched"
+    },
+    {
+      "field": "Deductible",
+      "status": "flagged"
+    },
+    {
+      "field": "Coinsurance",
+      "status": "matched"
+    },
+    {
+      "field": "Waiver of subrogation",
+      "status": "flagged"
+    }
+  ]
+}

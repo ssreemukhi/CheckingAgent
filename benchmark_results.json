@@ -1,0 +1,340 @@
+{
+  "gemini-3.1-pro-preview": {
+    "total_correct": 88,
+    "total_fields": 88,
+    "total_cost": 0.030624,
+    "total_latency": 178.19046807289124,
+    "case_results": [
+      {
+        "case_id": "001",
+        "correct": 8,
+        "total": 8,
+        "mismatches": [],
+        "latency_sec": 7.99,
+        "cost_usd": 0.002376
+      },
+      {
+        "case_id": "002",
+        "correct": 7,
+        "total": 7,
+        "mismatches": [],
+        "latency_sec": 8.14,
+        "cost_usd": 0.002738
+      },
+      {
+        "case_id": "003",
+        "correct": 6,
+        "total": 6,
+        "mismatches": [],
+        "latency_sec": 7.82,
+        "cost_usd": 0.001868
+      },
+      {
+        "case_id": "004",
+        "correct": 4,
+        "total": 4,
+        "mismatches": [],
+        "latency_sec": 6.39,
+        "cost_usd": 0.00127
+      },
+      {
+        "case_id": "005",
+        "correct": 6,
+        "total": 6,
+        "mismatches": [],
+        "latency_sec": 10.3,
+        "cost_usd": 0.002482
+      },
+      {
+        "case_id": "006",
+        "correct": 5,
+        "total": 5,
+        "mismatches": [],
+        "latency_sec": 9.62,
+        "cost_usd": 0.002046
+      },
+      {
+        "case_id": "007",
+        "correct": 4,
+        "total": 4,
+        "mismatches": [],
+        "latency_sec": 7.17,
+        "cost_usd": 0.001304
+      },
+      {
+        "case_id": "008",
+        "correct": 4,
+        "total": 4,
+        "mismatches": [],
+        "latency_sec": 9.0,
+        "cost_usd": 0.001306
+      },
+      {
+        "case_id": "009",
+        "correct": 4,
+        "total": 4,
+        "mismatches": [],
+        "latency_sec": 8.53,
+        "cost_usd": 0.001266
+      },
+      {
+        "case_id": "010",
+        "correct": 4,
+        "total": 4,
+        "mismatches": [],
+        "latency_sec": 7.81,
+        "cost_usd": 0.00128
+      },
+      {
+        "case_id": "011",
+        "correct": 3,
+        "total": 3,
+        "mismatches": [],
+        "latency_sec": 7.38,
+        "cost_usd": 0.0011
+      },
+      {
+        "case_id": "012",
+        "correct": 4,
+        "total": 4,
+        "mismatches": [],
+        "latency_sec": 7.68,
+        "cost_usd": 0.001324
+      },
+      {
+        "case_id": "013",
+        "correct": 3,
+        "total": 3,
+        "mismatches": [],
+        "latency_sec": 8.61,
+        "cost_usd": 0.001092
+      },
+      {
+        "case_id": "014",
+        "correct": 4,
+        "total": 4,
+        "mismatches": [],
+        "latency_sec": 13.4,
+        "cost_usd": 0.001282
+      },
+      {
+        "case_id": "015",
+        "correct": 3,
+        "total": 3,
+        "mismatches": [],
+        "latency_sec": 9.24,
+        "cost_usd": 0.001038
+      },
+      {
+        "case_id": "016",
+        "correct": 4,
+        "total": 4,
+        "mismatches": [],
+        "latency_sec": 8.1,
+        "cost_usd": 0.00132
+      },
+      {
+        "case_id": "017",
+        "correct": 3,
+        "total": 3,
+        "mismatches": [],
+        "latency_sec": 8.22,
+        "cost_usd": 0.001084
+      },
+      {
+        "case_id": "018",
+        "correct": 4,
+        "total": 4,
+        "mismatches": [],
+        "latency_sec": 8.75,
+        "cost_usd": 0.001374
+      },
+      {
+        "case_id": "019",
+        "correct": 4,
+        "total": 4,
+        "mismatches": [],
+        "latency_sec": 15.24,
+        "cost_usd": 0.001342
+      },
+      {
+        "case_id": "020",
+        "correct": 4,
+        "total": 4,
+        "mismatches": [],
+        "latency_sec": 8.8,
+        "cost_usd": 0.001732
+      }
+    ],
+    "parse_failures": 0
+  },
+  "gemini-3.1-flash-lite": {
+    "total_correct": 88,
+    "total_fields": 88,
+    "total_cost": 0.005059200000000001,
+    "total_latency": 24.612957239151,
+    "case_results": [
+      {
+        "case_id": "001",
+        "correct": 8,
+        "total": 8,
+        "mismatches": [],
+        "latency_sec": 1.61,
+        "cost_usd": 0.000429
+      },
+      {
+        "case_id": "002",
+        "correct": 7,
+        "total": 7,
+        "mismatches": [],
+        "latency_sec": 1.35,
+        "cost_usd": 0.00037
+      },
+      {
+        "case_id": "003",
+        "correct": 6,
+        "total": 6,
+        "mismatches": [],
+        "latency_sec": 1.37,
+        "cost_usd": 0.000334
+      },
+      {
+        "case_id": "004",
+        "correct": 4,
+        "total": 4,
+        "mismatches": [],
+        "latency_sec": 1.86,
+        "cost_usd": 0.000226
+      },
+      {
+        "case_id": "005",
+        "correct": 6,
+        "total": 6,
+        "mismatches": [],
+        "latency_sec": 2.12,
+        "cost_usd": 0.000342
+      },
+      {
+        "case_id": "006",
+        "correct": 5,
+        "total": 5,
+        "mismatches": [],
+        "latency_sec": 1.13,
+        "cost_usd": 0.000278
+      },
+      {
+        "case_id": "007",
+        "correct": 4,
+        "total": 4,
+        "mismatches": [],
+        "latency_sec": 1.02,
+        "cost_usd": 0.00023
+      },
+      {
+        "case_id": "008",
+        "correct": 4,
+        "total": 4,
+        "mismatches": [],
+        "latency_sec": 1.03,
+        "cost_usd": 0.000231
+      },
+      {
+        "case_id": "009",
+        "correct": 4,
+        "total": 4,
+        "mismatches": [],
+        "latency_sec": 1.07,
+        "cost_usd": 0.000224
+      },
+      {
+        "case_id": "010",
+        "correct": 4,
+        "total": 4,
+        "mismatches": [],
+        "latency_sec": 0.99,
+        "cost_usd": 0.000227
+      },
+      {
+        "case_id": "011",
+        "correct": 3,
+        "total": 3,
+        "mismatches": [],
+        "latency_sec": 1.13,
+        "cost_usd": 0.000192
+      },
+      {
+        "case_id": "012",
+        "correct": 4,
+        "total": 4,
+        "mismatches": [],
+        "latency_sec": 1.5,
+        "cost_usd": 0.000233
+      },
+      {
+        "case_id": "013",
+        "correct": 3,
+        "total": 3,
+        "mismatches": [],
+        "latency_sec": 1.01,
+        "cost_usd": 0.000191
+      },
+      {
+        "case_id": "014",
+        "correct": 4,
+        "total": 4,
+        "mismatches": [],
+        "latency_sec": 1.05,
+        "cost_usd": 0.000226
+      },
+      {
+        "case_id": "015",
+        "correct": 3,
+        "total": 3,
+        "mismatches": [],
+        "latency_sec": 0.9,
+        "cost_usd": 0.000182
+      },
+      {
+        "case_id": "016",
+        "correct": 4,
+        "total": 4,
+        "mismatches": [],
+        "latency_sec": 1.18,
+        "cost_usd": 0.000233
+      },
+      {
+        "case_id": "017",
+        "correct": 3,
+        "total": 3,
+        "mismatches": [],
+        "latency_sec": 1.27,
+        "cost_usd": 0.000189
+      },
+      {
+        "case_id": "018",
+        "correct": 4,
+        "total": 4,
+        "mismatches": [],
+        "latency_sec": 1.12,
+        "cost_usd": 0.000244
+      },
+      {
+        "case_id": "019",
+        "correct": 4,
+        "total": 4,
+        "mismatches": [],
+        "latency_sec": 0.91,
+        "cost_usd": 0.000237
+      },
+      {
+        "case_id": "020",
+        "correct": 4,
+        "total": 4,
+        "mismatches": [],
+        "latency_sec": 0.99,
+        "cost_usd": 0.000239
+      }
+    ],
+    "parse_failures": 0
+  }
+}

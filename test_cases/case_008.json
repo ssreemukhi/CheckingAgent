@@ -1,0 +1,30 @@
+{
+  "case_id": "008",
+  "description": "Quote vs Policy - flood exclusion silently added",
+  "source_text": "QUOTE - Commercial Property\nNamed Insured: Harborview Cold Storage Ltd\nAnnual Premium: Rs 6,20,000\nBuilding Limit: Rs 8,50,00,000\nExclusions: None specified beyond standard form",
+  "target_text": "POLICY - Commercial Property\nNamed Insured: Harborview Cold Storage Ltd\nAnnual Premium: Rs 6,20,000\nBuilding Limit: Rs 8,50,00,000\nExclusions: Flood damage excluded (Endorsement CP 10 65)",
+  "fields": [
+    "Named insured",
+    "Annual premium",
+    "Building limit",
+    "Exclusions"
+  ],
+  "ground_truth": [
+    {
+      "field": "Named insured",
+      "status": "matched"
+    },
+    {
+      "field": "Annual premium",
+      "status": "matched"
+    },
+    {
+      "field": "Building limit",
+      "status": "matched"
+    },
+    {
+      "field": "Exclusions",
+      "status": "flagged"
+    }
+  ]
+}
