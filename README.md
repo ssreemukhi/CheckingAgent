@@ -38,7 +38,7 @@ Named insured, policy number, dates, premium, limits, and waiver of subrogation 
 | Application service | API and orchestration | Python 3.11, Flask, served by Gunicorn in a Docker container `[confirm hosting, e.g. Cloud Run]` |
 | Document parser | Extracts text from policy PDFs | `pdfplumber` |
 | Comparison engine | Field-level comparison and discrepancy flagging | Application logic in `main.py`, with model calls to Gemini |
-| Language model | Field extraction and interpretation | Gemini 3.7 Flash on Vertex AI, via the `google-genai` SDK (model configurable through `GEMINI_MODEL`) |
+| Language model | Field extraction and interpretation | Gemini 3.1 Flash-Lite on Vertex AI, via the `google-genai` SDK (set through `GEMINI_MODEL`) |
 | Run record store | Timestamped results for audit | Cloud Firestore |
 
 All components run within a single Google Cloud project.
@@ -78,7 +78,7 @@ Set the environment variables below on the Cloud Run service rather than in the 
 
 | Variable | Purpose |
 |---|---|
-| `GEMINI_MODEL` | Model name on Vertex AI. Defaults to `gemini-3.7-flash`. |
+| `GEMINI_MODEL` | Model name on Vertex AI. The deployed service sets `gemini-3.1-flash-lite`; the code falls back to `gemini-3.7-flash` if unset. |
 | `MAX_OUTPUT_TOKENS` | Maximum output tokens per model call. Defaults to `8192`. |
 | `TEST_USERS` | Comma-separated `username:password` pairs for the demo login. |
 | `SESSION_SECRET_KEY` | A long random string. Keeps sessions valid across redeploys. |
@@ -98,7 +98,3 @@ The MVP was benchmarked against a general-purpose AI assistant on a test set of 
 ## Team
 
 IIM Kozhikode APM06, Group 13.
-
-## License
-
-`[choose a license, e.g. MIT]`
